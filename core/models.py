@@ -1,6 +1,6 @@
-def create_report(result: bool, sys_mes: str, data: str = "") -> dict:
+def create_report(success: bool, sys_mes: str, data: str = "") -> dict:
     report = {
-        "result": result,
+        "success": success,
         "sMessage": sys_mes,
         "data": data
     }
